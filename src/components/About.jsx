@@ -15,7 +15,7 @@ const About = () => {
                 short. But you can call me anything.
                 <br></br>
                 <br></br>
-                I grew up in <a className="underline" href="https://www.google.com/search?q=Bogor">Egypt</a>. I was
+                I grew up in <a className="underline" href="https://www.google.com/search?q=Egypt">Egypt</a>. I was
                 previously working as a Software Engineer (Front-End Web Developer) at <span className="underline">Molla Egypt</span> doing some internal projects But Now I'm a Computer Science Student at <a className="underline" href="https://hti.edu.eg/">HTI University.</a>
                 <br></br>
                 <br></br>

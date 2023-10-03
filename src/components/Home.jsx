@@ -10,7 +10,7 @@ const Home = () => {
                 <h1 className="text-4xl sm:text-7xl font-bold text-[#CCD6F6]">I'm Ahmed Yasser Bauomy</h1>
                 <h2 className="text-4xl sm:text-7xl font-bold text-[#8892B0]">Software Engineer</h2>
                 <p className="text-[#8892b0] py-4 max-w-[700px]">I'm a software engineer that loves exploring around web development stuff especially Javascript, Python and C#</p>
-                <div>
+                {/* <div>
                     <button className="text-white group border-2 px-6 py-3 my-2 flex items-center hover:bg-pink-600 hover:border-pink-600 duration-300">
                         <Link to="work" smooth={true} duration={500}>
                             Checkout my work
@@ -19,7 +19,7 @@ const Home = () => {
                             <HiArrowNarrowRight className="ml-3" />
                         </span>
                     </button>
-                </div>
+                </div> */}
             </div>
         </div>
     )

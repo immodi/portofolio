@@ -1,6 +1,7 @@
 import React from 'react';
 import Novel from '../assets/project-1.png';
-import Ecom from '../assets/project-2.png';
+import Weather from '../assets/project-3.png';
+import Todo from '../assets/todo.png';
 
 const Work = () => {
     return (
@@ -16,23 +17,23 @@ const Work = () => {
                 {/* Container */}
                 <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-4'>
 
-                    {/* Grid Item */}
+  
                     <div
-                        style={{ backgroundImage: `url(${Ecom})` }}
+                        style={{ backgroundImage: `url(${Todo})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 duration-300'>
                             <span className='text-2xl font-bold text-white tracking-wider'>
-                                Bootstrap E-Commerce App
+                                A Todo list With React
                             </span>
                             <div className='pt-8 text-center'>
-                                <a href='https://neon-druid-5e29cf.netlify.app/'>
+                                <a href='https://precious-chimera-ce77c7.netlify.app/'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Demo
                                     </button>
                                 </a>
-                                <a href='https://github.com/immodi/molla-ecom'>
+                                <a href='https://github.com/immodi/Todo-List'>
                                     <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                                         Code
                                     </button>
@@ -40,13 +41,14 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+
                     <div
                         style={{ backgroundImage: `url(${Novel})` }}
                         className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
                     >
                         {/* Hover Effects */}
                         <div className='opacity-0 group-hover:opacity-100 duration-300'>
-                            <span className='text-2xl font-bold text-white tracking-wider'>
+                            <span className='text-xl font-bold text-white tracking-wider'>
                                 Full-Stack Novels Webapp
                             </span>
                             <div className='pt-8 text-center'>
@@ -63,6 +65,32 @@ const Work = () => {
                             </div>
                         </div>
                     </div>
+
+
+                    <div
+                        style={{ backgroundImage: `url(${Weather})` }}
+                        className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+                    >
+                        {/* Hover Effects */}
+                        <div className='opacity-0 group-hover:opacity-100 duration-300'>
+                            <span className='text-xl font-bold text-white tracking-wider'>
+                                Full-Stack Weather Webapp
+                            </span>
+                            <div className='pt-8 text-center'>
+                                <a href='https://enchanting-fairy-f81f0f.netlify.app/'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Demo
+                                    </button>
+                                </a>
+                                <a href='https://github.com/immodi/weather-app-front-end'>
+                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
+                                        Code
+                                    </button>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
         </div>
